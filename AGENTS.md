@@ -59,3 +59,12 @@ Acceptance criteria are in `PRD.md` §11.
 
 Show: the file tree, row counts per data file, the one-line run command for each service, the
 smoke-test output, and the exact line to connect the MCP server to a coding agent.
+
+## Build Board
+
+Before writing to the board, read `docs/board/README.md`.
+For the relevant `docs/board/<stream>.md`, check the latest CLAIM before appending.
+When taking over a lane, append a CLAIM with `operator=<person>`, the session/run ID, model ID, and a `Takes over from` reason.
+When work lands, append a narrative entry with What / Why / Benefit / Next / Author / Evidence and a verifiable Evidence link.
+By default, the narrative entry rides the same working branch and PR as the work it describes.
+Never edit, reorder, or delete existing board entries; corrections are new entries.
